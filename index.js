@@ -2,6 +2,6 @@ import express from 'express';
 
 const app = express();
 
-app.listen(5001, () => console.log('my app is running on 5001'))
+app.listen(3000, () => console.log('my app is running on 3000'))
 
 app.get('/', (req, res) => res.json("YAYYYYYYYYYYY"))
